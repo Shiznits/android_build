@@ -1733,6 +1733,7 @@ function _wrap_build()
     fi
     echo " ####${color_reset}"
     echo
+    prebuilts/sdk/tools/jack-admin stop-server 2>&1 >/dev/null
     return $ret
 }
 
