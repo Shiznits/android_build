@@ -1220,7 +1220,7 @@ endef
 define build-recoveryramdisk
   @echo "Generating Changelog"
   $(hide) ./vendor/aosp/tools/changelog.sh
-  $(hide) mv $(PRODUCT_OUT)/Changelog.txt $(PRODUCT_OUT)/aosp_$(TARGET_DEVICE)-$(CUSTOM_VERSION)-Changelog.txt
+  $(hide) mv $(PRODUCT_OUT)/Changelog.txt $(PRODUCT_OUT)/$(CUSTOM_VERSION)-Changelog.txt
   @echo ----- Making recovery image ------
   $(hide) mkdir -p $(TARGET_RECOVERY_OUT)
   $(hide) mkdir -p $(TARGET_RECOVERY_ROOT_OUT)/etc $(TARGET_RECOVERY_ROOT_OUT)/sdcard $(TARGET_RECOVERY_ROOT_OUT)/tmp
