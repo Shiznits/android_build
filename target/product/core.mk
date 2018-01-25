@@ -49,6 +49,8 @@ PRODUCT_PACKAGES += \
     Settings \
     SettingsBlackThemeOverlay \
     SettingsDarkThemeOverlay \
+    DuiDarkTheme \
+    DuiBlackTheme \
     SharedStorageBackup \
     StorageManager \
     Telecom \
