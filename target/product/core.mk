@@ -47,8 +47,8 @@ PRODUCT_PACKAGES += \
     PrintRecommendationService \
     ProxyHandler \
     Settings \
-    SettingsBlackThemeOverlay \
-    SettingsDarkThemeOverlay \
+    SettingsBlackTheme \
+    SettingsDarkTheme \
     DuiDarkTheme \
     DuiBlackTheme \
     GBoardDarkTheme \
